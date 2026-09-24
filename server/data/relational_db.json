@@ -1,0 +1,212 @@
+{
+  "cars": [
+    {
+      "id": "car-1",
+      "name": "Baleno",
+      "category": "Premium Hatchback",
+      "image_url": "/assets/Baleno.jpg",
+      "price_12hr": 1650,
+      "price_24hr": 2750,
+      "overage_rate_per_hr": 190,
+      "transmission": "Manual / Petrol",
+      "seating": "5 Seater",
+      "created_at": "2026-09-22T19:19:32.170Z"
+    },
+    {
+      "id": "car-2",
+      "name": "Bolero",
+      "category": "Utility SUV",
+      "image_url": "/assets/bolero.jpg",
+      "price_12hr": 1800,
+      "price_24hr": 3000,
+      "overage_rate_per_hr": 200,
+      "transmission": "Manual / Diesel",
+      "seating": "7 Seater",
+      "created_at": "2026-09-22T19:19:32.171Z"
+    },
+    {
+      "id": "car-3",
+      "name": "Brezza",
+      "category": "Compact SUV",
+      "image_url": "/assets/Brezza.jpg",
+      "price_12hr": 1900,
+      "price_24hr": 3200,
+      "overage_rate_per_hr": 220,
+      "transmission": "Automatic / Petrol",
+      "seating": "5 Seater",
+      "created_at": "2026-09-22T19:19:32.172Z"
+    },
+    {
+      "id": "car-4",
+      "name": "Creta",
+      "category": "Premium SUV",
+      "image_url": "/assets/creta.jpg",
+      "price_12hr": 2400,
+      "price_24hr": 4000,
+      "overage_rate_per_hr": 280,
+      "transmission": "Automatic / Diesel",
+      "seating": "5 Seater",
+      "created_at": "2026-09-22T19:19:32.173Z"
+    },
+    {
+      "id": "car-5",
+      "name": "Fronx",
+      "category": "Compact Crossover",
+      "image_url": "/assets/fronx.jpg",
+      "price_12hr": 1800,
+      "price_24hr": 3100,
+      "overage_rate_per_hr": 200,
+      "transmission": "Automatic / Petrol",
+      "seating": "5 Seater",
+      "created_at": "2026-09-22T19:19:32.174Z"
+    },
+    {
+      "id": "car-6",
+      "name": "Scorpio N",
+      "category": "Full-Size SUV",
+      "image_url": "/assets/Scorpio_n.jpg",
+      "price_12hr": 3200,
+      "price_24hr": 5500,
+      "overage_rate_per_hr": 350,
+      "transmission": "Automatic / Diesel 4x4",
+      "seating": "7 Seater",
+      "created_at": "2026-09-22T19:19:32.176Z"
+    },
+    {
+      "id": "car-7",
+      "name": "Scorpio S11",
+      "category": "Classic SUV",
+      "image_url": "/assets/scorpio_s11.jpg",
+      "price_12hr": 2800,
+      "price_24hr": 4800,
+      "overage_rate_per_hr": 300,
+      "transmission": "Manual / Diesel",
+      "seating": "7 Seater",
+      "created_at": "2026-09-22T19:19:32.177Z"
+    },
+    {
+      "id": "car-8",
+      "name": "Swift Dzire",
+      "category": "Compact Sedan",
+      "image_url": "/assets/SwiftDzire.jpg",
+      "price_12hr": 1500,
+      "price_24hr": 2600,
+      "overage_rate_per_hr": 160,
+      "transmission": "Manual / Petrol",
+      "seating": "5 Seater",
+      "created_at": "2026-09-22T19:19:32.178Z"
+    },
+    {
+      "id": "car-9",
+      "name": "Thar",
+      "category": "4x4 Offroader",
+      "image_url": "/assets/thar.jpg",
+      "price_12hr": 3500,
+      "price_24hr": 6000,
+      "overage_rate_per_hr": 400,
+      "transmission": "Automatic / 4x4 Hardtop",
+      "seating": "4 Seater",
+      "created_at": "2026-09-22T19:19:32.179Z"
+    },
+    {
+      "id": "car-10",
+      "name": "Verna",
+      "category": "Executive Sedan",
+      "image_url": "/assets/verna.jpg",
+      "price_12hr": 2500,
+      "price_24hr": 4200,
+      "overage_rate_per_hr": 280,
+      "transmission": "Automatic / Turbo Petrol",
+      "seating": "5 Seater",
+      "created_at": "2026-09-22T19:19:32.180Z"
+    }
+  ],
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Fleet Operations Manager",
+      "username": "admin",
+      "email": "admin@kkrentals.com",
+      "phone": "+91 99977 84944",
+      "password_hash": "$2b$10$/MWDC3Gp7gDmfnvgb.4wyO2gQEJLpIzE5aWCag5KqGKh3elAaGlgO",
+      "role": "admin",
+      "created_at": "2026-09-22T19:19:32.378Z"
+    },
+    {
+      "id": "user-default",
+      "name": "Customer User",
+      "username": "customer",
+      "email": "customer@kkrentals.com",
+      "phone": "+91 98765 00000",
+      "password_hash": "$2b$10$faT2ll4tXSUt/ANvt/p3kOncLOq5zVg5LfAw/bQIGmLVQoebwLsqi",
+      "role": "customer",
+      "created_at": "2026-09-22T19:19:32.379Z"
+    }
+  ],
+  "requests": [
+    {
+      "id": "REQ-4238",
+      "user_id": "user-deploy-test",
+      "car_id": "car-1",
+      "customer_name": "Deployment Verification Agent",
+      "customer_phone": "+91 99988 77766",
+      "customer_email": "deploy.check@example.com",
+      "car_name": "Baleno",
+      "requested_duration": "24 Hours",
+      "expected_duration_note": "Automated test booking",
+      "requested_start_time": "2026-09-25T10:00",
+      "estimated_base_price": 2750,
+      "status": "Confirmed",
+      "admin_notes": "Customer requested 2-hour extension. Revised pickup confirmed.",
+      "created_at": "2026-09-23T18:47:45.998Z"
+    },
+    {
+      "id": "REQ-3362",
+      "user_id": "user-deploy-test",
+      "car_id": "car-1",
+      "customer_name": "Deployment Verification Agent",
+      "customer_phone": "+91 99988 77766",
+      "customer_email": "deploy.check@example.com",
+      "car_name": "Baleno",
+      "requested_duration": "24 Hours",
+      "expected_duration_note": "Automated test booking",
+      "requested_start_time": "2026-09-25T10:00",
+      "estimated_base_price": 2750,
+      "status": "Confirmed",
+      "admin_notes": "Customer requested 2-hour extension. Revised pickup confirmed.",
+      "created_at": "2026-09-23T18:47:15.433Z"
+    },
+    {
+      "id": "REQ-1259",
+      "user_id": "user-deploy-test",
+      "car_id": "car-1",
+      "customer_name": "Deployment Verification Agent",
+      "customer_phone": "+91 99988 77766",
+      "customer_email": "deploy.check@example.com",
+      "car_name": "Baleno",
+      "requested_duration": "24 Hours",
+      "expected_duration_note": "Automated test booking",
+      "requested_start_time": "2026-09-25T10:00",
+      "estimated_base_price": 2750,
+      "status": "Confirmed",
+      "admin_notes": "Customer requested 2-hour extension. Revised pickup confirmed.",
+      "created_at": "2026-09-23T18:34:09.692Z"
+    },
+    {
+      "id": "REQ-2627",
+      "user_id": "user-deploy-test",
+      "car_id": "car-1",
+      "customer_name": "Deployment Verification Agent",
+      "customer_phone": "+91 99988 77766",
+      "customer_email": "deploy.check@example.com",
+      "car_name": "Baleno",
+      "requested_duration": "24 Hours",
+      "expected_duration_note": "Automated test booking",
+      "requested_start_time": "2026-09-25T10:00",
+      "estimated_base_price": 2750,
+      "status": "Confirmed",
+      "admin_notes": "Customer requested 2-hour extension. Revised pickup confirmed.",
+      "created_at": "2026-09-23T18:33:17.426Z"
+    }
+  ]
+}
